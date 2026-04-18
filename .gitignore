@@ -1,0 +1,60 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+dist/
+build/
+
+# Envs
+venv/
+.venv/
+env/
+.env
+.env.*
+
+# Model weights / data
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+*.onnx
+
+checkpoints/
+models/
+weights/
+data/
+datasets/
+
+# Logs / runs
+*.log
+runs/
+logs/
+wandb/
+.wandb/
+tensorboard/
+
+# Secrets
+*.key
+*.pem
+secrets.json
+token.txt
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
